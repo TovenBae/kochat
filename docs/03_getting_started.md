@@ -225,3 +225,15 @@ question,label
 데이터까지 모두 삽입하셨다면 kochat을 이용할 준비가 끝났습니다. 
 이제 다음 챕터에서는 자세한 사용법에 대해 알려드리겠습니다.
 <br><br><br>
+
+### 3.6 KoChat Demo 실행하기
+참고 : [잘 만들어진 오픈소스 챗봇 KoChat](https://willbesoon.tistory.com/250)
+
+```
+furtur2@DESKTOP-OOIVN4C MINGW64 ~
+$ cd /c/data/git/kochat/demo
+(base)
+furtur2@DESKTOP-OOIVN4C MINGW64 /c/data/git/kochat/demo (master)
+$ python application.py
+```
+
