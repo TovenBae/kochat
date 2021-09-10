@@ -229,10 +229,21 @@ question,label
 ### 3.6 KoChat Demo 실행하기
 참고 : [잘 만들어진 오픈소스 챗봇 KoChat](https://willbesoon.tistory.com/250)
 
+Anaconda 환경에서 실행하기
 ```
 furtur2@DESKTOP-OOIVN4C MINGW64 ~
+furtur2@DESKTOP-OOIVN4C MINGW64 /c/data/git/kochat/demo (master)
+$ conda env list
+# conda environments:
+#
+base                     C:\apps\anaconda3
+aaa                      C:\apps\anaconda3\envs\aaa
+kochat                *  C:\apps\anaconda3\envs\kochat
+py3.5                    C:\apps\anaconda3\envs\py3.5
+pytest                   C:\apps\anaconda3\envs\pytest
+$ conda activate kochat
 $ cd /c/data/git/kochat/demo
-(base)
+(kochat)
 furtur2@DESKTOP-OOIVN4C MINGW64 /c/data/git/kochat/demo (master)
 $ python application.py
 ```
